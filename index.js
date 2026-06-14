@@ -1,3 +1,4 @@
+require('newrelic'); // 🚨 SIEMPRE EN LA LÍNEA 1
 const { Client, GatewayIntentBits, PermissionsBitField } = require('discord.js');
 const express = require('express');
 require('dotenv').config();
